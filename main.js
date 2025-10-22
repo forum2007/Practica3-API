@@ -13,7 +13,7 @@ btn.addEventListener('click',async() => {
     const data2 = await obtenerPokemon(nombre2);
 
   if (!data1 || !data2) {
-    alert("Alguno de los Pokémon no existe 😢");
+    alert("Alguno de los Pokémon no existe ");
     return;
   }
 
